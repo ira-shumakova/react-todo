@@ -1,0 +1,18 @@
+.myInput {
+    width: 100%;
+    padding: 7px 10px;
+    margin: 10px 0px;
+    border: 2px solid #A6B1E1;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #F4EEFF;
+    color: #424874;
+}
+
+.myInput:focus-visible {
+    outline: none;
+}
+
+.myInput::placeholder {
+    color: #A6B1E1;
+}

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: linear-gradient(236deg, #dcd6f7, #f4eeff);
+    background-size: 400% 100%;
+
+    animation: AnimationName 30s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 800px;
+    margin-top: 150px;
+    color: #424874;
+}
+
+.todo {
+    background-color: #F4EEFF;
+    display: flex;
+    padding: 15px;
+    border: 2px solid #A6B1E1;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+h2 {
+    margin-top: 15px;
+}
